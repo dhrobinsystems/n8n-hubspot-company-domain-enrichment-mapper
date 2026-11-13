@@ -1,0 +1,19 @@
+{
+  "_comment": "Synthetic n8n Webhook node output for a HubSpot workflow 'Send a webhook' action. The header value is replaced with a test secret at runtime.",
+  "item": {
+    "headers": {
+      "content-type": "application/json",
+      "user-agent": "HubSpot Connect 2.0 (http://dev.hubspot.com/)",
+      "x-webhook-secret": "{{WEBHOOK_SECRET}}"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "objectId": 109,
+      "properties": {
+        "hs_object_id": { "value": "109" },
+        "domain": { "value": "https://www.globex.example/about" }
+      }
+    }
+  }
+}

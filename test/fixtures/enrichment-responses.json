@@ -1,0 +1,26 @@
+{
+  "_comment": "Synthetic company-metadata API responses keyed by root domain. Shapes mirror common provider formats.",
+  "responses": {
+    "example.com": {
+      "domain": "example.com",
+      "category": { "industry": "Computer Software", "sector": "Information Technology" },
+      "metrics": { "employees": null, "employeesRange": "51-200" },
+      "tech": ["Google Analytics", "HubSpot", "React", "Cloudflare", "hubspot", ""]
+    },
+    "acme-widgets.co.uk": {
+      "data": {
+        "industry": "Underwater Basket Weaving",
+        "employee_count": "1,200",
+        "technologies": [{ "name": "Shopify", "category": "Ecommerce" }, { "name": "Klaviyo" }]
+      },
+      "meta": { "credits_used": 1 }
+    },
+    "northwind.example": { "error": { "message": "Request failed with status code 404", "httpCode": "404" } },
+    "contoso.example": { "error": { "message": "Too Many Requests", "httpCode": "429" } },
+    "globex.example": {
+      "industry": "Marketing & Advertising",
+      "headcount": "10K+",
+      "tech_stack": "WordPress; Google Tag Manager; Salesforce"
+    }
+  }
+}

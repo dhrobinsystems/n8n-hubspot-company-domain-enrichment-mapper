@@ -1,0 +1,16 @@
+{
+  "_comment": "Synthetic HubSpot Trigger output (one item per event). portalId is a placeholder; IDs are fake.",
+  "events": [
+    { "eventId": 9000001, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225600000, "attemptNumber": 0, "objectId": 101, "changeSource": "CRM_UI" },
+    { "eventId": 9000002, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225601000, "attemptNumber": 0, "objectId": 102, "changeSource": "IMPORT" },
+    { "eventId": 9000003, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225602000, "attemptNumber": 0, "objectId": 103, "changeSource": "CRM_UI" },
+    { "eventId": 9000004, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225603000, "attemptNumber": 0, "objectId": 104, "changeSource": "API" },
+    { "eventId": 9000005, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225604000, "attemptNumber": 0, "objectId": 105, "changeSource": "CRM_UI" },
+    { "eventId": 9000006, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225605000, "attemptNumber": 0, "objectId": 106, "changeSource": "CRM_UI" },
+    { "eventId": 9000007, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225606000, "attemptNumber": 0, "objectId": 107, "changeSource": "CRM_UI" },
+    { "eventId": 9000008, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225607000, "attemptNumber": 0, "objectId": 108, "changeSource": "CRM_UI" },
+    { "eventId": 9000009, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225608000, "attemptNumber": 1, "objectId": 101, "changeSource": "CRM_UI" },
+    { "eventId": 9000010, "subscriptionType": "contact.creation", "portalId": "your-portal-id", "occurredAt": 1767225609000, "attemptNumber": 0, "objectId": 555, "changeSource": "CRM_UI" },
+    { "eventId": 9000011, "subscriptionType": "company.creation", "portalId": "your-portal-id", "occurredAt": 1767225610000, "attemptNumber": 0, "changeSource": "CRM_UI" }
+  ]
+}

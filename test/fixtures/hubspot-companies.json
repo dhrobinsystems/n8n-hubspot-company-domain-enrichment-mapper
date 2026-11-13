@@ -1,0 +1,14 @@
+{
+  "_comment": "Synthetic responses for GET /crm/v3/objects/companies/{id}. All names and domains are fictitious or reserved example domains.",
+  "companies": {
+    "101": { "id": "101", "archived": false, "properties": { "hs_object_id": "101", "name": "Example Co", "domain": "", "website": "http://www.example.com/path" } },
+    "102": { "id": "102", "archived": false, "properties": { "hs_object_id": "102", "name": "Acme Widgets", "domain": "https://shop.acme-widgets.co.uk/en", "industry": "RETAIL" } },
+    "103": { "id": "103", "archived": false, "properties": { "hs_object_id": "103", "name": "Freelancer", "domain": "gmail.com" } },
+    "104": { "id": "104", "archived": false, "properties": { "hs_object_id": "104", "name": "No Domain Ltd" } },
+    "105": { "id": "105", "archived": false, "properties": { "hs_object_id": "105", "name": "Initech", "domain": "initech.example", "enrichment_status": "ENRICHED" } },
+    "106": { "id": "106", "archived": false, "properties": { "hs_object_id": "106", "name": "Northwind", "domain": "northwind.example" } },
+    "107": { "id": "107", "archived": false, "properties": { "hs_object_id": "107", "name": "Contoso", "website": "https://app.contoso.example" } },
+    "108": { "error": { "message": "Request failed with status code 404", "httpCode": "404" } },
+    "109": { "id": "109", "archived": false, "properties": { "hs_object_id": "109", "name": "Globex", "domain": "https://www.globex.example/about" } }
+  }
+}
