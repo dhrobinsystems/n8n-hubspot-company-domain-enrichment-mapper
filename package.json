@@ -1,0 +1,34 @@
+{
+  "name": "n8n-hubspot-company-domain-enrichment-mapper",
+  "version": "1.0.0",
+  "description": "Asynchronous n8n enrichment router: extracts root domains from new HubSpot companies, queries a company metadata API (industry, employee count, tech stack) and maps the results back onto HubSpot company properties.",
+  "private": true,
+  "license": "MIT",
+  "author": "DH Robin (dhRobin Systems)",
+  "main": "src/mapper.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-workflow.js",
+    "build:check": "node scripts/build-workflow.js --check",
+    "validate:config": "node config.validator.js --env-path .env.example",
+    "lint": "node --check config.validator.js && node --check workflow.harness.js && node --check scripts/build-workflow.js && node --check src/domain.js && node --check src/mapper.js && node --check src/router.js && node --check test/domain.test.js && node --check test/mapper.test.js && node --check test/config.test.js && node --check test/workflow.test.js && node -e \"JSON.parse(require('fs').readFileSync('workflow.json','utf8'))\"",
+    "test": "node --test test/domain.test.js test/mapper.test.js test/config.test.js test/workflow.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/domain.test.js test/mapper.test.js test/config.test.js test/workflow.test.js",
+    "harness": "node workflow.harness.js",
+    "ci": "bash build.sh --check"
+  },
+  "keywords": [
+    "n8n",
+    "hubspot",
+    "enrichment",
+    "domain",
+    "firmographics",
+    "revops",
+    "automation",
+    "workflow"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
