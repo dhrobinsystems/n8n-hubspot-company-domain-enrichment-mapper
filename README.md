@@ -32,6 +32,8 @@ An asynchronous enrichment router for [n8n](https://n8n.io). When a company is c
 
 ## Architecture overview
 
+![n8n HubSpot Company Domain Enrichment Mapper Workflow](assets/workflow-overview.png)
+
 ```mermaid
 flowchart LR
     T["HubSpot Company Created<br/>(HubSpot Trigger: company.creation)"] --> N
